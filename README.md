@@ -9,6 +9,8 @@ Esse repositório é dedicado aos meus estudos na linguagem de programação Pyt
 ├── FaculStudies/
 │   ├── Laboratory - Pratice/
 |      ├──1&2week.py
+|      ├──3&4week.py
 |   ├── Programming - Study/
 |      ├──conditionals.md
+|      ├──methods.md
 └── README.md
