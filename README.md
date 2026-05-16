@@ -7,8 +7,8 @@ Esse repositório é dedicado aos meus estudos na linguagem de programação Pyt
 ```
 
 ├── FaculStudies/
-│   ├── Laboratory - Pratice
+│   ├── Laboratory - Pratice/
 |      ├──1&2week.py
-|   ├── Programming - Study
+|   ├── Programming - Study/
 |      ├──conditionals.md
 └── README.md
