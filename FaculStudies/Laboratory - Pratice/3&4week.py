@@ -281,3 +281,46 @@ for i in range(0,quant):
 print("Lista de compras:")
 for i in listaDeCompras:
     print(i)
+
+# Exercício 1: Crie um método que recebe dois valores val1 e val2 (assuma que serão inteiros). O
+# método deve retornar verdadeiro se val1 for divisível por val2 e falso caso contrário.
+
+def verificaDivisivel(val1, val2):
+    return val1 % val2 == 0
+
+# Exercício 2: Crie um método chamado maiorValor que recebe 3 valores por parâmetro (assuma
+# que serão inteiros) e retorna o maior dos três valores.
+
+def maiorValor(n1, n2, n3):
+    if(n1 > n2 and n1 > n3):
+        return n1
+    if(n2 > n1 and n2 > n3):
+        return n2
+    return n3
+
+# Exercício 3: Crie um método que recebe um valor por parâmetro (assuma que será inteiro) e
+# retorna a soma de todos os valores entre 0 e o valor recebido. Caso o valor seja negativo, o
+# método deve retornar -1.
+
+def somaValores(n):
+    soma = 0
+    for i in range(0,n+1): #aqui estamos incluindo o valor n na soma
+        soma += i
+    return soma
+
+# Exercício 4: Crie um método que recebe um valor por parâmetro (assuma que será uma string)
+# e retorna a quantidade de letras ou outros caracteres que não sejam espaço que existem neste
+# texto.
+
+def quantLetras(txt):
+    tam = len(txt)
+    espacos = txt.count(" ")
+    return tam - espacos
+
+
+# Exercício 5: Crie um método que recebe uma lista por parâmetro e imprime os elementos da
+# lista recebida.
+
+def imprimeLista(lista):
+    for i in lista:
+        print(i)
